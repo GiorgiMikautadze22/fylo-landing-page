@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+:root {
+  --darkbl: #07043b;
+  --blue: #2f65f8;
+  --gray: #615f7e;
+  --jade: #3da08f;
+  --bg: #f8f8fe;
+  --sidebg: #575988;
+  --lighttext: #c0c0c0;
+  --white: #ffffff;
+}
+
+body {
+  background: var(--bg);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 24px 98px 24px;
+}
+
+h3 {
+  font-size: 12px;
+  color: var(--darkbl);
+  font-weight: 400;
+  font-family: Raleway;
+}
+
+.top div {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+h1 {
+  font-size: 24px;
+  color: var(--darkbl);
+  font-weight: 700;
+  line-height: 36px;
+  margin: 40px 27px 24px 28px;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  color: var(--darkbl);
+  font-weight: 400;
+  line-height: 21px;
+  margin: 0px 43px 32px 36px;
+  text-align: center;
+}
+
+.enter {
+  border: 0.625px solid #07043b;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 3.125px;
+  width: 304px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: #c2c2c2;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Raleway";
+  padding-left: 21px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: var(--blue);
+  color: var(--white);
+  width: 304px;
+  height: 40px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 3.125px;
+  font-weight: 700;
+  font-family: "Raleway";
+  border: none;
+  margin-bottom: 183px;
+}
+
+h2 {
+  font-size: 16px;
+  color: var(--darkbl);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 87px;
+  font-family: "Raleway";
+}
+
+.never {
+  font-size: 14px;
+  color: var(--gray);
+  font-weight: 400;
+  text-align: center;
+  line-height: 21px;
+  margin: 0px 35px 0px 20px;
+}
+
+.mt {
+  margin-top: 24px;
+}
+
+.mtlow {
+  margin-top: 16px;
+}
+
+.combine {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  font-size: 12px;
+  color: var(--jade);
+  font-weight: 400;
+}
+
+.combine div {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--jade);
+  border: none;
+  box-shadow: 0px 0px 2px rgba(61, 160, 143, 0.793507);
+  margin-left: 9px;
+  background-image: url(./resorces/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.underline {
+  width: 130px;
+  height: 1px;
+  background-color: var(--jade);
+  border: none;
+  margin-bottom: 40px;
+  margin-left: 33%;
+}
