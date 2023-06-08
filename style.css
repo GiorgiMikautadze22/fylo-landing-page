@@ -156,3 +156,129 @@ h4 {
   margin-bottom: 40px;
   margin-left: 33%;
 }
+
+.profile {
+  display: flex;
+}
+
+.statement {
+  width: 280px;
+  height: 169px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+  display: grid;
+  padding: 20px 12px 20px 26px;
+  margin-bottom: 82px;
+}
+
+.quote {
+  font-family: "Nunito Sans";
+  font-size: 50px;
+}
+
+.statement div {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--darkbl);
+  line-height: 18px;
+  text-align: start;
+}
+
+.profile {
+  margin-top: 12px;
+}
+
+.profile div {
+  margin-left: 7.5px;
+}
+
+.profile h5 {
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--darkbl);
+}
+
+.profile h6 {
+  font-size: 6px;
+  font-weight: 400;
+  color: var(--darkbl);
+}
+
+.section {
+  background-color: var(--sidebg);
+  padding: 54px 47px 71px 48px;
+}
+
+.section h2 {
+  color: var(--white);
+  font-size: 18px;
+  margin: 0px 0px 16px 0px;
+}
+
+.section p {
+  color: var(--white);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0px 0px 24px 0px;
+}
+
+.section .bgwhite {
+  background-color: var(--white);
+  width: 240px;
+  height: 32px;
+  font-size: 10px;
+  padding-left: 8px;
+  margin-bottom: 8px;
+  border: none;
+}
+
+.section button {
+  width: 240px;
+  height: 32px;
+  font-size: 10px;
+  margin: 0px 0px 0px 0px;
+}
+
+footer {
+  background-color: var(--darkbl);
+  padding: 65px 39px 42px 39px;
+}
+
+.contacts {
+  display: grid;
+  row-gap: 23px;
+  margin-top: 36px;
+  font-size: 16px;
+  color: var(--white);
+}
+
+.contacts img {
+  margin-right: 18px;
+  padding-top: 5px;
+}
+
+.pages h5 {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.pages .mt32 {
+  margin-top: 32px;
+}
+
+.forms h5 {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.forms {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
