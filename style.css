@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .top {
@@ -172,11 +172,6 @@ h4 {
   margin-bottom: 82px;
 }
 
-.quote {
-  font-family: "Nunito Sans";
-  font-size: 50px;
-}
-
 .statement div {
   font-size: 10px;
   font-weight: 400;
@@ -197,12 +192,14 @@ h4 {
   font-size: 9px;
   font-weight: 700;
   color: var(--darkbl);
+  height: 13px;
 }
 
 .profile h6 {
   font-size: 6px;
   font-weight: 400;
   color: var(--darkbl);
+  height: 15px;
 }
 
 .section {
@@ -281,4 +278,222 @@ footer {
 .forms {
   margin-top: 32px;
   margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1200px) {
+  .top {
+    margin-top: 85px;
+  }
+
+  .top img {
+    width: 166px;
+    height: 49px;
+    margin-left: 80px;
+  }
+
+  .top div {
+    gap: 57px;
+    margin-right: 80px;
+  }
+
+  .top div h3 {
+    font-size: 16px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 100px 80px 0px 80px;
+  }
+
+  .hero img {
+    width: 640px;
+    height: 474px;
+  }
+
+  h1 {
+    text-align: start;
+    margin: 78px 13px 15px 0px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .hero p {
+    text-align: start;
+    margin: 0px 55px 25px 0px;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.53125px;
+  }
+
+  .button-combine {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .hero .button-combine .enter {
+    width: 320px;
+    height: 45px;
+  }
+
+  .hero button {
+    align-items: flex-start;
+    margin: 0px 0px 0px 0px;
+    width: 200px;
+    height: 45px;
+  }
+
+  .button-combine {
+    display: flex;
+    gap: 16px;
+  }
+
+  .enter {
+    margin: 0px 0px;
+  }
+
+  .hero2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 342px 80px 0px 80px;
+  }
+
+  .hero2 .img2 {
+    width: 542px;
+    height: 409px;
+    margin-top: 100px;
+  }
+
+  .hero2 .text h2 {
+    font-size: 40px;
+    text-align: start;
+    margin-bottom: 38px;
+  }
+
+  .hero2 .text p {
+    font-size: 16px;
+    margin: 0px 209px 16px 0px;
+    text-align: start;
+  }
+
+  .hero2 .text .combine {
+    margin-top: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 16px;
+  }
+
+  .hero2 .text .combine h4 {
+    font-size: 16px;
+    width: 152px;
+  }
+
+  .hero2 .text .combine div {
+    margin-left: 0px;
+    margin-top: 6px;
+    margin-right: 20px;
+    background-position: 50% 50%;
+  }
+
+  .hero2 .text .underline {
+    width: 166px;
+    height: 1px;
+    background-color: var(--jade);
+    border: none;
+    margin-bottom: 45px;
+    margin-left: 0px;
+    margin-top: 4px;
+  }
+
+  .statement {
+    width: 356px;
+    height: 215px;
+    padding: 12px 34px 26px 33px;
+  }
+
+  .statement div {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+
+  .profile img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .profile h5 {
+    font-size: 11px;
+  }
+
+  .profile h6 {
+    font-size: 8px;
+  }
+
+  .section {
+    display: flex;
+    padding: 100px 120px 85px 80px;
+    gap: 227px;
+  }
+
+  .section .text h2 {
+    text-align: start;
+    font-size: 32px;
+  }
+
+  .section .text p {
+    text-align: start;
+    font-size: 16px;
+    margin-bottom: 0px;
+    width: 533px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+  }
+
+  .section .enter {
+    width: 480px;
+    height: 48px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    padding-left: 22px;
+    padding-top: 16px;
+  }
+
+  .section div {
+    justify-content: start;
+    align-items: start;
+  }
+
+  .section button {
+    width: 200px;
+    height: 48px;
+    justify-self: start;
+    align-items: start;
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 92px 262px 86px 80px;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .botlogo {
+    width: 135px;
+    height: 39px;
+  }
+
+  footer .contacts {
+    gap: 0px;
+  }
+
+  footer .phone {
+    height: 40px;
+  }
 }
