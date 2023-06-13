@@ -326,19 +326,34 @@ footer {
     letter-spacing: 0.53125px;
   }
 
+  span {
+    display: none;
+    color: #ef4877;
+  }
+
+  input::placeholder {
+    color: #c2c2c2;
+  }
+
+  input:focus:invalid + span {
+    display: flex;
+    border-color: #ef4877;
+  }
+
   .button-combine {
     display: flex;
     justify-content: start;
     align-items: start;
   }
 
-  .hero .button-combine .enter {
+  .hero .button-combine input {
     width: 320px;
     height: 45px;
+    padding-left: 21px;
   }
 
   .hero button {
-    align-items: flex-start;
+    align-items: flex;
     margin: 0px 0px 0px 0px;
     width: 200px;
     height: 45px;
@@ -470,18 +485,32 @@ footer {
     line-height: 24px;
   }
 
-  .section .enter {
+  .section input {
     width: 480px;
     height: 48px;
     margin-bottom: 16px;
     font-size: 12px;
     padding-left: 22px;
-    padding-top: 16px;
+    border-radius: 3.13px;
   }
 
   .section div {
     justify-content: start;
     align-items: start;
+  }
+
+  span {
+    display: none;
+    color: #ffffff;
+  }
+
+  input::placeholder {
+    color: #c2c2c2;
+  }
+
+  input:focus:invalid + span {
+    display: flex;
+    border-color: #ef4877;
   }
 
   .section button {
