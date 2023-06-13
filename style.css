@@ -344,6 +344,14 @@ footer {
     height: 45px;
   }
 
+  button {
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #6c9bff;
+  }
+
   .button-combine {
     display: flex;
     gap: 16px;
@@ -388,6 +396,11 @@ footer {
   .hero2 .text .combine h4 {
     font-size: 16px;
     width: 152px;
+    cursor: pointer;
+  }
+
+  .hero2 .text .combine h4:hover {
+    color: #71dfcc;
   }
 
   .hero2 .text .combine div {
@@ -395,6 +408,10 @@ footer {
     margin-top: 6px;
     margin-right: 20px;
     background-position: 50% 50%;
+  }
+
+  .hero2 .text .combine div:hover {
+    background-color: #71dfcc;
   }
 
   .hero2 .text .underline {
@@ -482,6 +499,7 @@ footer {
   .flex {
     display: flex;
     justify-content: space-between;
+    align-items: first baseline;
   }
 
   footer .botlogo {
@@ -490,10 +508,30 @@ footer {
   }
 
   footer .contacts {
-    gap: 0px;
+    gap: 16px;
   }
 
   footer .phone {
     height: 40px;
+  }
+
+  footer h5 .pages {
+    cursor: pointer;
+  }
+
+  footer .pages h5:hover {
+    color: var(--blue);
+  }
+
+  footer .forms h5 {
+    cursor: pointer;
+  }
+
+  footer .forms h5:hover {
+    color: var(--blue);
+  }
+
+  .socialmedia {
+    cursor: pointer;
   }
 }
