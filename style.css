@@ -25,9 +25,7 @@ body {
 
 .center {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin: auto; */
+  margin: auto;
 }
 
 .top {
@@ -41,6 +39,11 @@ h3 {
   color: var(--darkbl);
   font-weight: 400;
   font-family: Raleway;
+}
+
+h3:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 .top div {
@@ -66,6 +69,42 @@ p {
   margin: 0px 43px 32px 36px;
   text-align: center;
 }
+
+.button-combine {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-combine input {
+  width: 304px;
+  height: 40px;
+  border: 1px solid #07043b;
+  border-radius: 3px;
+  padding-left: 21px;
+}
+
+.button-combine .submit {
+  margin-top: 16px;
+}
+
+input::placeholder {
+  color: #c2c2c2;
+}
+
+label {
+  color: #ef4877;
+  font-size: 12px;
+  font-weight: 400;
+  display: none;
+}
+
+/* label {
+  color: #ef4877;
+  font-size: 12px;
+  font-weight: 400;
+  display: none;
+} */
 
 .enter {
   border: 0.625px solid #07043b;
@@ -207,6 +246,22 @@ h4 {
   padding: 54px 47px 71px 48px;
 }
 
+.bottom-email {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.section input {
+  width: 240px;
+  height: 32px;
+  font-size: 10px;
+  padding-left: 8px;
+  border: none;
+  margin-bottom: 8px;
+  border-radius: 3px;
+}
+
 .section h2 {
   color: var(--white);
   font-size: 18px;
@@ -268,6 +323,12 @@ footer {
   margin-top: 32px;
 }
 
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .forms h5 {
   color: var(--white);
   font-weight: 400;
@@ -326,18 +387,8 @@ footer {
     letter-spacing: 0.53125px;
   }
 
-  span {
-    display: none;
-    color: #ef4877;
-  }
-
   input::placeholder {
     color: #c2c2c2;
-  }
-
-  input:focus:invalid + span {
-    display: flex;
-    border-color: #ef4877;
   }
 
   .button-combine {
