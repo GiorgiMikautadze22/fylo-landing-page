@@ -349,7 +349,7 @@ footer {
   .top img {
     width: 166px;
     height: 49px;
-    margin-left: 80px;
+    margin-left: 60px;
   }
 
   .top div {
@@ -389,6 +389,10 @@ footer {
 
   input::placeholder {
     color: #c2c2c2;
+  }
+
+  .button-combine .submit {
+    margin: 0;
   }
 
   .button-combine {
@@ -494,6 +498,8 @@ footer {
     width: 356px;
     height: 215px;
     padding: 12px 34px 26px 33px;
+    margin: 0;
+    margin-bottom: 82px;
   }
 
   .statement div {
@@ -579,6 +585,7 @@ footer {
   .flex {
     display: flex;
     justify-content: space-between;
+    gap: 200px;
     align-items: first baseline;
   }
 
@@ -613,5 +620,6 @@ footer {
 
   .socialmedia {
     cursor: pointer;
+    margin-bottom: 110px;
   }
 }
